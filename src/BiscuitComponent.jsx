@@ -11,7 +11,7 @@ const BiscuitComponent = () => {
   const { withdrawMoney } = bindActionCreators(accountActionCreators, dispatch)
 
   const handleClick = () => {
-    if (account > 5) {
+    if (account >= 5) {
       addBiscuit()
       withdrawMoney(5)
     }
