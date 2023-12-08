@@ -23,11 +23,11 @@ const handleChange = (e) => {
   return (
     <div className="App">
       <h1>Account: {account}</h1>
-      <button onClick={() => depositMoney(amount)}>Deposit</button>
-      <button onClick={() => withdrawMoney(amount)}>Withdraw</button>
       <div>
-        <span>Amount: </span><input type="number" onChange={handleChange} />
+        <span>Amount: </span><input type="number" min="0" onChange={handleChange} />
       </div>
+      <button className="account-button" onClick={() => depositMoney(amount)}>Deposit</button>
+      <button className="account-button" onClick={() => withdrawMoney(amount)}>Withdraw</button>
       <BiscuitComponent />
     </div>
   );
