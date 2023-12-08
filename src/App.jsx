@@ -6,6 +6,8 @@ import { accountActionCreators } from "./action-creators";
 
 import BiscuitComponent from "./BiscuitComponent";
 
+import "./App.css"
+
 const App = () => {
   const [amount, setAmount] = useState()
 

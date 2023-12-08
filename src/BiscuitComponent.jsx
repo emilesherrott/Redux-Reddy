@@ -22,7 +22,8 @@ const BiscuitComponent = () => {
       <h2>Biscuit Component</h2>
       <p>Number of biscuits: {biscuits}</p>
       <p>Money to buy biscuits: {account}</p>
-      <button onClick={handleClick}>Buy Biscuit</button>
+      <button className="button" onClick={handleClick}>Buy Biscuit</button>
+      <div className="info">Cost of biscuit is: $5</div>
     </>
   )
 }
