@@ -1,11 +1,6 @@
-# Redux (starter)
+# Redux 
 
-Some example React code to help teach people Redux
+Not one but TWO peices of state! 
+Not one but TWO sets of action-creators! 
 
-## Using this repo
-
-- `git clone`
-- `npm install`
-- `npm run dev`
-
-This repo contains the starter code for the Redux lecture
+It's beautiful! 
